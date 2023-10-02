@@ -3,7 +3,7 @@
     --primary: #bcf10d;
     --secondary: rgb(241, 11, 130);
     --light: #f0f6ff;
-    --dark: #262b47;
+    --dark: #0827d5;
 }
 
 /*** Spinner ***/
@@ -230,7 +230,7 @@ h6,
     .sticky-top.navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
         margin-left: 0;
-        color: var(--dark) !important;
+        color: var(--secondary) !important;
     }
 
     .navbar-light .navbar-nav .nav-link::before {
