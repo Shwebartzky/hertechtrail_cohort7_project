@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #bcf10d;
-    --secondary: rgb(241, 11, 130);
+    --primary: orange;
+    --secondary: green;
     --light: #f0f6ff;
-    --dark: #0827d5;
+    --dark: purple;
 }
 
 /*** Spinner ***/
@@ -25,6 +25,11 @@ h1,
 h2,
 .fw-bold {
     font-weight: 700 !important;
+}
+/* css for controlling images size */
+img{
+    width: 100%;/* this ensures image fits its container */
+    height: auto;/* maintains ratio aspect */
 }
 
 h3,
