@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: orange;
-    --secondary: green;
-    --light: #f0f6ff;
-    --dark: purple;
+    --primary: #283618;
+    --secondary: #f9790a;
+    --light: #FEFAE0;
+    --dark: #283618;
 }
 
 /*** Spinner ***/
@@ -86,7 +86,7 @@ h6,
     position: relative;
     overflow: hidden;
     border: none;
-    color: #ffffff;
+    color: #FEFAE0;
     z-index: 1;
 }
 
@@ -203,7 +203,7 @@ h6,
 }
 
 .navbar-light .navbar-brand h1 {
-    color: #ffffff;
+    color: #FEFAE0;
 }
 
 .navbar-light .navbar-brand img {
@@ -218,7 +218,7 @@ h6,
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
         position: relative;
-        background: #ffffff;
+        background: #FEFAE0;
     
     }
 
@@ -270,7 +270,7 @@ h6,
 
     .sticky-top.navbar-light {
         position: fixed;
-        background: #ffffff;
+        background: #FEFAE0;
     }
 
     .sticky-top.navbar-light .navbar-nav .nav-link::before {
@@ -324,7 +324,7 @@ h6,
     padding: 12px 30px;
     font-weight: 500;
     color: var(--dark);
-    background: #ffffff;
+    background: #FEFAE0;
 }
 
 .pricing .nav-item:first-child .nav-link {
@@ -406,7 +406,7 @@ h6,
     height: 50px;
     top: 5px;
     left: 5px;
-    background: #ffffff;
+    background: #FEFAE0;
     border-radius: 5px;
 }
 
@@ -429,7 +429,7 @@ h6,
 
 .testimonial-carousel .owl-item.center .testimonial-item h5,
 .testimonial-carousel .owl-item.center .testimonial-item p {
-    color: #ffffff !important;
+    color: #FEFAE0 !important;
 }
 
 .testimonial-carousel .owl-nav {
@@ -446,7 +446,7 @@ h6,
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
+    color: #FEFAE0;
     background: linear-gradient(
         to bottom right,
         var(--primary),
